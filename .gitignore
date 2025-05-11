@@ -1,0 +1,48 @@
+# File: .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+
+# Virtual Environment
+venv/
+*.venv/
+env/
+ENV/
+# If you use Conda
+# .conda/
+# conda-meta/
+
+# Data files - consider if these should be in the repo
+# If your video data is large, ignore it
+videos/
+
+# Generated data files
+*.npy
+*.pkl
+# If you save plots or other reports
+# reports/
+# plots/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# If you have other specific large files or sensitive info, add them here
+# e.g., api_keys.json (if you had one)
